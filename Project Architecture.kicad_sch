@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Project Architecture")
 		(date "2025-01-12")
