@@ -1044,8 +1044,13 @@
     "COMPANY": "Company Name",
     "DESIGNER": "Author",
     "FABRICATION_NOTES": "",
+<<<<<<< HEAD
     "GIT_HASH_PCB": "5daa2b1",
     "GIT_HASH_SCH": "5daa2b1",
+=======
+    "GIT_HASH_PCB": "23fc206",
+    "GIT_HASH_SCH": "bdd0fa0",
+>>>>>>> 6997d4e3cff1eef307ad1e7062399173b259a97b
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "KiBot Project",
     "RELEASE_BODY_1.0.0": "",

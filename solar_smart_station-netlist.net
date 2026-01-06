@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-74ptww01/solar_smart_station.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-n_37r3xi/solar_smart_station.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.6+1")
     (textvar (name "ASSEMBLY_NOTES"))
@@ -9,7 +9,7 @@
     (textvar (name "DESIGNER") "Author")
     (textvar (name "FABRICATION_NOTES"))
     (textvar (name "GIT_HASH_PCB") "23fc206")
-    (textvar (name "GIT_HASH_SCH") "23fc206")
+    (textvar (name "GIT_HASH_SCH") "bdd0fa0")
     (textvar (name "GIT_URL") "https://github.com/nguyen-v/KDT_Hierarchical_KiBot")
     (textvar (name "PROJECT_NAME") "KiBot Project")
     (textvar (name "RELEASE_BODY_1.0.0"))
