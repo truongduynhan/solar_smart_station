@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">Author</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">23fc206</textvar>
-    <textvar name="GIT_HASH_SCH">23fc206</textvar>
+    <textvar name="GIT_HASH_SCH">bdd0fa0</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">KiBot Project</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
