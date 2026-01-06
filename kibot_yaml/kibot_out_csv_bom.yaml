@@ -42,5 +42,5 @@ definitions:
   NAME: csv_bom
   COMMENT: Bill of Materials in CSV format
   DIR: Manufacturing/Assembly
-  MPN_FIELD: 'Manufacturer Part Number'
+  MPN_FIELD: 'MPN'
   MAN_FIELD: 'Manufacturer'
