@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "solar_station")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprint/solar_station.pretty")(options "")(descr ""))
+)

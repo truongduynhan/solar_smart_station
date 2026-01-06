@@ -253,6 +253,48 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
+		(at 190.5 152.4)
+		(size 39.37 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae8d0caf-6898-4dee-88e6-fcc8a5387577")
+		(property "Sheetname" "Connectors"
+			(at 190.5 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 190.5 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar_smart_station"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 190.5 114.3)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
@@ -268,7 +310,7 @@
 			(color 255 200 0 0.5020)
 		)
 		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
-		(property "Sheetname" "Section B - Title B"
+		(property "Sheetname" "MCU"
 			(at 190.5 113.2709 0)
 			(effects
 				(font
@@ -312,7 +354,7 @@
 			(color 128 255 128 0.5000)
 		)
 		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "Section A - Title A"
+		(property "Sheetname" "SolarCharger"
 			(at 190.5 75.1709 0)
 			(effects
 				(font
