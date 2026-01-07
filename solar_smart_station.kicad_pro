@@ -909,7 +909,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -945,15 +945,27 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Config",
           "name": "Config",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
@@ -1026,6 +1038,10 @@
       "MCU"
     ],
     [
+      "54082ac5-4f5c-4b8c-9076-544a3a334a45",
+      "CellBalancer"
+    ],
+    [
       "ae8d0caf-6898-4dee-88e6-fcc8a5387577",
       "Connectors"
     ],
@@ -1044,13 +1060,8 @@
     "COMPANY": "Company Name",
     "DESIGNER": "Author",
     "FABRICATION_NOTES": "",
-<<<<<<< HEAD
     "GIT_HASH_PCB": "5daa2b1",
     "GIT_HASH_SCH": "5daa2b1",
-=======
-    "GIT_HASH_PCB": "23fc206",
-    "GIT_HASH_SCH": "bdd0fa0",
->>>>>>> 6997d4e3cff1eef307ad1e7062399173b259a97b
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "KiBot Project",
     "RELEASE_BODY_1.0.0": "",

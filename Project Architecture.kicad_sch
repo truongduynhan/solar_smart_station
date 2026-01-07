@@ -12,9 +12,9 @@
 	)
 	(lib_symbols)
 	(arc
-		(start 185.42 85.09)
-		(mid 185.0451 85.9851)
-		(end 184.15 86.36)
+		(start 87.63 59.69)
+		(mid 87.2551 60.5851)
+		(end 86.36 60.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -25,9 +25,9 @@
 		(uuid 13e3bc56-4a98-40ef-8c39-3b21620a792f)
 	)
 	(arc
-		(start 234.97 124.44)
-		(mid 234.0749 124.0651)
-		(end 233.7 123.17)
+		(start 137.18 99.04)
+		(mid 136.2849 98.6651)
+		(end 135.91 97.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -38,9 +38,9 @@
 		(uuid 19c30b2f-1391-4be0-8a5f-17a3226c0876)
 	)
 	(arc
-		(start 233.7 125.71)
-		(mid 234.0749 124.8149)
-		(end 234.97 124.44)
+		(start 135.91 100.31)
+		(mid 136.2849 99.4149)
+		(end 137.18 99.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -51,9 +51,9 @@
 		(uuid 5b059745-d833-4f9d-9745-ec7a90904541)
 	)
 	(arc
-		(start 233.7 134.6)
-		(mid 232.9561 136.3961)
-		(end 231.16 137.14)
+		(start 135.91 109.2)
+		(mid 135.1661 110.9961)
+		(end 133.37 111.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -64,9 +64,9 @@
 		(uuid 62bb3cd5-23b6-4c8e-a8f2-a293aca5d83b)
 	)
 	(arc
-		(start 184.15 86.36)
-		(mid 185.0451 86.7349)
-		(end 185.42 87.63)
+		(start 86.36 60.96)
+		(mid 87.2551 61.3349)
+		(end 87.63 62.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -77,9 +77,9 @@
 		(uuid 787eda22-1bf9-4d1b-96b2-11995bb2af0f)
 	)
 	(arc
-		(start 187.96 101.6)
-		(mid 186.1698 100.8502)
-		(end 185.42 99.06)
+		(start 90.17 76.2)
+		(mid 88.3798 75.4502)
+		(end 87.63 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -90,9 +90,9 @@
 		(uuid 7c454724-851d-42c5-8823-df570c1fc5eb)
 	)
 	(arc
-		(start 231.16 111.74)
-		(mid 232.9502 112.4898)
-		(end 233.7 114.28)
+		(start 133.37 86.34)
+		(mid 135.1602 87.0898)
+		(end 135.91 88.88)
 		(stroke
 			(width 0)
 			(type default)
@@ -103,9 +103,9 @@
 		(uuid 94ad6bc3-4505-4c4a-89fc-83d0c51dd562)
 	)
 	(arc
-		(start 185.42 73.66)
-		(mid 186.1639 71.8639)
-		(end 187.96 71.12)
+		(start 87.63 48.26)
+		(mid 88.3739 46.4639)
+		(end 90.17 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -117,7 +117,7 @@
 	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 226.06 133.35 0)
+		(at 128.27 107.95 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -131,7 +131,7 @@
 	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 226.06 95.25 0)
+		(at 128.27 69.85 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -145,7 +145,7 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 166.37 83.82 0)
+		(at 68.58 58.42 0)
 		(size 17.145 5.08)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -168,7 +168,7 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 234.95 121.92 0)
+		(at 137.16 96.52 0)
 		(size 26.015 5.1)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -214,7 +214,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 87.63) (xy 185.42 99.06)
+			(xy 87.63 62.23) (xy 87.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -224,7 +224,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 125.73) (xy 233.68 134.62)
+			(xy 135.89 100.33) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -234,7 +234,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 85.09) (xy 185.42 73.66)
+			(xy 87.63 59.69) (xy 87.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -244,7 +244,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 114.3) (xy 233.68 123.19)
+			(xy 135.89 88.9) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -253,8 +253,8 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
-		(at 190.5 152.4)
-		(size 39.37 21.59)
+		(at 152.4 50.8)
+		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -265,11 +265,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 85 146 255 1.0000)
 		)
-		(uuid "ae8d0caf-6898-4dee-88e6-fcc8a5387577")
-		(property "Sheetname" "Connectors"
-			(at 190.5 151.6884 0)
+		(uuid "54082ac5-4f5c-4b8c-9076-544a3a334a45")
+		(property "Sheetname" "CellBalancer"
+			(at 152.4 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,8 +277,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
-			(at 190.5 174.5746 0)
+		(property "Sheetfile" "cell_balancer.kicad_sch"
+			(at 152.4 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,7 +295,49 @@
 		)
 	)
 	(sheet
-		(at 190.5 114.3)
+		(at 92.71 121.92)
+		(size 39.37 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae8d0caf-6898-4dee-88e6-fcc8a5387577")
+		(property "Sheetname" "Connectors"
+			(at 92.71 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 92.71 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar_smart_station"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 88.9)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -311,7 +353,7 @@
 		)
 		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
 		(property "Sheetname" "MCU"
-			(at 190.5 113.2709 0)
+			(at 92.71 87.8709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -321,7 +363,7 @@
 			)
 		)
 		(property "Sheetfile" "Section B - TItle B.kicad_sch"
-			(at 190.5 135.2046 0)
+			(at 92.71 109.8046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -339,7 +381,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
+		(at 92.71 50.8)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -355,7 +397,7 @@
 		)
 		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
 		(property "Sheetname" "SolarCharger"
-			(at 190.5 75.1709 0)
+			(at 92.71 49.7709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -365,7 +407,7 @@
 			)
 		)
 		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 190.5 97.1046 0)
+			(at 92.71 71.7046 0)
 			(effects
 				(font
 					(face "Arial")

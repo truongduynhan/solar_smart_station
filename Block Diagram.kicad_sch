@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Block Diagram")
 		(date "2025-01-12")
