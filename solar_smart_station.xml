@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">Author</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">23fc206</textvar>
-    <textvar name="GIT_HASH_SCH">bdd0fa0</textvar>
+    <textvar name="GIT_HASH_SCH">8e341b7</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">KiBot Project</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">07-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-07</textvar>
+    <textvar name="RELEASE_DATE">08-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-08</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -62,10 +62,10 @@
     <textvar name="SHEET_NAME_4">SolarCharger</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
     <textvar name="SHEET_NAME_5">MCU</textvar>
-    <textvar name="SHEET_NAME_6">Connectors</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="SHEET_NAME_6">CellBalancer</textvar>
+    <textvar name="SHEET_NAME_7">Connectors</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
+    <textvar name="SHEET_NAME_9">Power - Sequencing</textvar>
     <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -157,7 +157,25 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/">
+    <sheet number="6" name="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/">
+      <title_block>
+        <title/>
+        <company>Company Name</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>cell_balancer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/">
       <title_block>
         <title>Connectors</title>
         <company>Company Name</company>
@@ -175,7 +193,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+    <sheet number="8" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
         <company>Company Name</company>
@@ -193,7 +211,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
+    <sheet number="9" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
         <title>Power - Sequencing</title>
         <company>Company Name</company>
@@ -1076,6 +1094,787 @@
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>ccd25725-f80e-4365-b46f-4d59dec30520</tstamps>
     </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>86d5ed34-85bf-47da-a90c-94728a2214f3</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>6ac7e666-dda2-4d8d-9c36-585c34e89791</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>7a3e7f70-9b9a-4e2f-be43-322987b268f8</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>22f80531-f56b-4151-b1ca-d3c072165fad</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>28a02594-45e9-4fa4-9416-ac23004fce57</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>a56ff7c7-48d8-4090-a880-524fb65e72ed</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>4c48d108-9c7b-4614-a60c-4c8cb5126cae</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>6913feab-4ca1-40bc-a1de-e2b0f5856a77</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>bf8e7458-a083-4685-8f04-d4d5c732b4f7</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>62aa75c7-d3c9-447a-b723-da8c48aa8e58</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>72c90a4f-efc0-454b-be97-d53be35c7e10</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Schottky_30V_1A</value>
+      <footprint>solar_station:DIO_RB02_ROM</footprint>
+      <description>DIODE SCHOTTKY 30V 1A TUMD2M</description>
+      <fields>
+        <field name="MPN">RSX101VYM30FHTR</field>
+        <field name="Footprint">solar_station:DIO_RB02_ROM</field>
+        <field name="Datasheet"/>
+        <field name="Description">DIODE SCHOTTKY 30V 1A TUMD2M</field>
+      </fields>
+      <libsource lib="solar_station" part="Schottky_30V_1A" description="DIODE SCHOTTKY 30V 1A TUMD2M"/>
+      <property name="MPN" value="RSX101VYM30FHTR"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>bf645bc7-aea5-4399-affb-8abe5a3e3b43</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>a2e2a76e-6a5f-407b-ab9f-cbc6548a56cd</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>30d97a73-4b34-4f84-ab9b-035e91f8ece9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>66e8c82e-9880-46c7-b731-8bc0465ac62f</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>0d780bfc-39c7-41ef-8643-ea74d20cb4e9</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>700f1f39-9506-4334-be02-c493bb16fb05</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>1b9b0311-6ed8-459c-af47-e8d635519f49</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>a18669be-500e-4ce1-8d5f-f4738e903156</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>ee17305d-2fab-4555-9ec0-a5b2e8312714</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>7a527a40-7580-4318-bc3a-db9c583ffcf2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>70f9c835-04c6-44ce-af1a-94e176f6ae7d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>13a39743-68d1-4bd6-9469-277f3b61a530</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>cde83e21-3cff-464e-bf9a-40137fea7417</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>fc19ef8f-d189-4bd0-83e5-b40e15d510a8</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>8be1f221-1d23-472a-a0ed-de1f8c1f53e7</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>db35e707-df1e-4964-a08e-4a0271891f62</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>0c5a1447-ae7f-463c-8f0d-9481880ccce0</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>007c6d55-6021-4185-bf79-9148ba09f1a3</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10mR</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>917a2989-6070-4d22-8954-e16c8eb2535e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1MegR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>d7f6b1b7-e33d-459f-8428-e587dcc98b52</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>3.3MegR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>11847619-9419-4d2e-a4f5-b3143115118b</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>fa8a8781-8356-423a-818b-553c71ba3ba5</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>450kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>5683880d-c3b2-42da-b8d1-0dcf07cb7056</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1MegR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>add03607-7982-41ba-ac63-6bb0efd9eba4</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>c6a23253-50fc-4fbc-8fb7-351121de1a5f</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>7ecf6b4e-8265-4cea-881b-4e33d15198a3</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>409c1ee8-13ba-4e3e-96da-c66b2d65609b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CSD25402Q3A</value>
+      <footprint>Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf</datasheet>
+      <description>-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm</description>
+      <fields>
+        <field name="Footprint">Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf</field>
+        <field name="Description">-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="CSD25402Q3A" description="-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="P-MOS PMOS single"/>
+      <property name="ki_fp_filters" value="VSON*3.3x3.3mm*P0.65mm*NexFET*"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>9d64ff59-c8a7-42da-8d17-cbea59f8e2a7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>BQ7791500PWR</value>
+      <footprint>solar_station:PW24_TEX</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/bq77915</datasheet>
+      <fields>
+        <field name="MPN">TBD</field>
+        <field name="Footprint">solar_station:PW24_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/bq77915</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_station" part="BQ7791500PWR" description=""/>
+      <property name="MPN" value="TBD"/>
+      <property name="Sheetname" value="CellBalancer"/>
+      <property name="Sheetfile" value="cell_balancer.kicad_sch"/>
+      <property name="ki_keywords" value="BQ7791500PWR"/>
+      <property name="ki_fp_filters" value="PW24_TEX PW24_TEX-M PW24_TEX-L"/>
+      <sheetpath names="/Project Architecture/CellBalancer/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45/"/>
+      <tstamps>108e66b1-a229-43c6-ad11-c7c351460a1f</tstamps>
+    </comp>
     <comp ref="J4">
       <value>JST_VH_B2P_3.96mm</value>
       <footprint>Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
@@ -1113,22 +1912,58 @@
       <tstamps>162d1b57-a326-4c55-8afb-3a7906f4d675</tstamps>
     </comp>
     <comp ref="J6">
-      <value>JST_VH_B3P_3.96mm</value>
-      <footprint>Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical</footprint>
+      <value>JST_VH_B2P_3.96mm</value>
+      <footprint>Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x03, script generated</description>
+      <description>Generic connector, single row, 01x02, script generated</description>
       <fields>
-        <field name="Footprint">Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical</field>
+        <field name="Footprint">Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/"/>
-      <tstamps>f6ec6cfb-ce17-4101-8dfe-3ec3e3d3c29e</tstamps>
+      <tstamps>8dbf5d64-2a70-493b-9e90-58baa802b4d0</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/"/>
+      <tstamps>78e01ec3-695d-4358-a259-0fd940a68807</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>CE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/"/>
+      <tstamps>011eabc9-954a-4a6a-8293-4c55bc40f4d7</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1177,25 +2012,6 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x03_Pin</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x03, script generated</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Conn_01x03_Socket">
-      <description>Generic connector, single row, 01x03, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03_Socket</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x03, script generated</field>
@@ -1302,6 +2118,23 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="Regulator_Linear" part="TLV73333PDBV">
       <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
       <docs>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</docs>
@@ -1321,6 +2154,46 @@
         <pin num="3" name="EN" type="input"/>
         <pin num="4" name="NC" type="no_connect"/>
         <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="CSD25402Q3A">
+      <description>-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm</description>
+      <docs>https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf</docs>
+      <footprints>
+        <fp>VSON*3.3x3.3mm*P0.65mm*NexFET*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CSD25402Q3A</field>
+        <field name="Footprint">Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf</field>
+        <field name="Description">-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="S" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="solar_station" part="BQ25672RQMR">
@@ -1368,6 +2241,48 @@
         <pin num="29" name="PMID" type="unspecified"/>
       </pins>
     </libpart>
+    <libpart lib="solar_station" part="BQ7791500PWR">
+      <docs>https://www.ti.com/lit/gpn/bq77915</docs>
+      <footprints>
+        <fp>PW24_TEX</fp>
+        <fp>PW24_TEX-M</fp>
+        <fp>PW24_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ7791500PWR</field>
+        <field name="Footprint">PW24_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/bq77915</field>
+        <field name="Description"/>
+        <field name="MPN">TBD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="AVDD" type="power_in"/>
+        <pin num="3" name="VC5" type="input"/>
+        <pin num="4" name="VC4" type="input"/>
+        <pin num="5" name="VC3" type="input"/>
+        <pin num="6" name="VC2" type="input"/>
+        <pin num="7" name="VC1" type="input"/>
+        <pin num="8" name="VC0" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="SRP" type="input"/>
+        <pin num="11" name="SRN" type="input"/>
+        <pin num="12" name="DSG" type="output"/>
+        <pin num="13" name="CHG" type="output"/>
+        <pin num="14" name="LD" type="input"/>
+        <pin num="15" name="LPWR" type="output"/>
+        <pin num="16" name="CBI" type="input"/>
+        <pin num="17" name="OCDP" type="input"/>
+        <pin num="18" name="TS" type="input"/>
+        <pin num="19" name="VTB" type="output"/>
+        <pin num="20" name="CCFG" type="input"/>
+        <pin num="21" name="CBO" type="output"/>
+        <pin num="22" name="PRES" type="input"/>
+        <pin num="23" name="CTRC" type="input"/>
+        <pin num="24" name="CTRD" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="solar_station" part="MSPM0C1104SDSGR">
       <docs>https://www.ti.com/lit/gpn/mspm0c1104</docs>
       <footprints>
@@ -1396,6 +2311,24 @@
         <pin num="9" name="EPAD" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="solar_station" part="Schottky_30V_1A">
+      <description>DIODE SCHOTTKY 30V 1A TUMD2M</description>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Schottky_30V_1A</field>
+        <field name="Footprint">solar_station:DIO_RB02_ROM</field>
+        <field name="Datasheet"/>
+        <field name="Description">DIODE SCHOTTKY 30V 1A TUMD2M</field>
+        <field name="MPN">RSX101VYM30FHTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -1404,8 +2337,14 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
     <library logical="Regulator_Linear">
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="solar_station">
       <uri>/github/workspace/libraries/symbol/solar_station.kicad_sym</uri>
@@ -1483,16 +2422,29 @@
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
@@ -1502,6 +2454,11 @@
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="U3" pin="9" pinfunction="EPAD" pintype="power_out"/>
+      <node ref="U4" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="CBI" pintype="input"/>
+      <node ref="U5" pin="23" pinfunction="CTRC" pintype="input"/>
+      <node ref="U5" pin="24" pinfunction="CTRD" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="VSS" pintype="power_in"/>
     </net>
     <net code="14" name="Net-(C1-Pad1)" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -1515,71 +2472,205 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="STAT" pintype="unspecified"/>
     </net>
-    <net code="17" name="Net-(J1-Pin_1)" class="Default">
+    <net code="17" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-K)" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(H1-Pad1)" class="Default">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(H2-Pad1)" class="Default">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(H3-Pad1)" class="Default">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(H4-Pad1)" class="Default">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(H5-Pad1)" class="Default">
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-Pin_1)" class="Default">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="CE_N" pintype="input"/>
     </net>
-    <net code="18" name="Net-(J2-Pin_2)" class="Default">
+    <net code="25" name="Net-(J2-Pin_2)" class="Default">
       <node ref="C19" pin="2" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="19" name="Net-(J3-Pin_2)" class="Default">
+    <net code="26" name="Net-(J3-Pin_2)" class="Default">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="PA19/SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="20" name="Net-(J3-Pin_3)" class="Default">
+    <net code="27" name="Net-(J3-Pin_3)" class="Default">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="PA20/A6/SWCLK" pintype="bidirectional"/>
     </net>
-    <net code="21" name="Net-(U1-BATP)" class="Default">
+    <net code="28" name="Net-(Q1-D)" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q1-S)" class="Default">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q2-G)" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q2-S)" class="Default">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(U1-BATP)" class="Default">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="BATP" pintype="unspecified"/>
     </net>
-    <net code="22" name="Net-(U1-BTST1)" class="Default">
+    <net code="33" name="Net-(U1-BTST1)" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="BTST1" pintype="unspecified"/>
     </net>
-    <net code="23" name="Net-(U1-BTST2)" class="Default">
+    <net code="34" name="Net-(U1-BTST2)" class="Default">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="BTST2" pintype="unspecified"/>
     </net>
-    <net code="24" name="Net-(U1-ILIM_HIZ)" class="Default">
+    <net code="35" name="Net-(U1-ILIM_HIZ)" class="Default">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="ILIM_HIZ" pintype="unspecified"/>
     </net>
-    <net code="25" name="Net-(U1-PMID)" class="Default">
+    <net code="36" name="Net-(U1-PMID)" class="Default">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="U1" pin="29" pinfunction="PMID" pintype="unspecified"/>
     </net>
-    <net code="26" name="Net-(U1-PROG)" class="Default">
+    <net code="37" name="Net-(U1-PROG)" class="Default">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="PROG" pintype="unspecified"/>
     </net>
-    <net code="27" name="Net-(U1-SDRV)" class="Default">
+    <net code="38" name="Net-(U1-SDRV)" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="SDRV" pintype="unspecified"/>
     </net>
-    <net code="28" name="Net-(U1-SW1)" class="Default">
+    <net code="39" name="Net-(U1-SW1)" class="Default">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="SW1" pintype="unspecified"/>
     </net>
-    <net code="29" name="Net-(U1-SW2)" class="Default">
+    <net code="40" name="Net-(U1-SW2)" class="Default">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="SW2" pintype="unspecified"/>
     </net>
-    <net code="30" name="Net-(U3-PA24/A3)" class="Default">
+    <net code="41" name="Net-(U3-PA24/A3)" class="Default">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="PA24/A3" pintype="bidirectional"/>
     </net>
-    <net code="31" name="REGN" class="Default">
+    <net code="42" name="Net-(U4-S)" class="Default">
+      <node ref="U4" pin="5" pinfunction="S" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="CHG" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(U5-AVDD)" class="Default">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(U5-DSG)" class="Default">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="DSG" pintype="output"/>
+    </net>
+    <net code="45" name="Net-(U5-LD)" class="Default">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="LD" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U5-OCDP)" class="Default">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="OCDP" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(U5-PRES)" class="Default">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="PRES" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U5-SRN)" class="Default">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U5-SRP)" class="Default">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(U5-VC0)" class="Default">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="VC0" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U5-VC1)" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="VC1" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U5-VC2)" class="Default">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="VC2" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(U5-VC3)" class="Default">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VC3" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U5-VC4)" class="Default">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VC4" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U5-VC5)" class="Default">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VC5" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U5-VDD)" class="Default">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="57" name="Net-(U5-VTB)" class="Default">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="VTB" pintype="output"/>
+    </net>
+    <net code="58" name="REGN" class="Default">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
@@ -1587,7 +2678,7 @@
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="REGN" pintype="unspecified"/>
     </net>
-    <net code="32" name="SYSTEM_LOAD" class="Default">
+    <net code="59" name="SYSTEM_LOAD" class="Default">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C16" pin="2" pintype="passive"/>
@@ -1595,21 +2686,35 @@
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="SYS" pintype="unspecified"/>
     </net>
-    <net code="33" name="THERMISTOR" class="Default">
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="60" name="THERMISTOR" class="Default">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="TS" pintype="unspecified"/>
     </net>
-    <net code="34" name="unconnected-(U1-D+-Pad6)" class="Default">
+    <net code="61" name="THERMISTOR_2" class="Default">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="62" name="unconnected-(U1-D+-Pad6)" class="Default">
       <node ref="U1" pin="6" pinfunction="D+" pintype="unspecified+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(U1-D--Pad7)" class="Default">
+    <net code="63" name="unconnected-(U1-D--Pad7)" class="Default">
       <node ref="U1" pin="7" pinfunction="D-" pintype="unspecified+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(U2-NC-Pad4)" class="Default">
+    <net code="64" name="unconnected-(U2-NC-Pad4)" class="Default">
       <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U5-CBO-Pad21)" class="Default">
+      <node ref="U5" pin="21" pinfunction="CBO" pintype="output"/>
+    </net>
+    <net code="66" name="unconnected-(U5-CCFG-Pad20)" class="Default">
+      <node ref="U5" pin="20" pinfunction="CCFG" pintype="input"/>
+    </net>
+    <net code="67" name="unconnected-(U5-LPWR-Pad15)" class="Default">
+      <node ref="U5" pin="15" pinfunction="LPWR" pintype="output"/>
     </net>
   </nets>
 </export>
