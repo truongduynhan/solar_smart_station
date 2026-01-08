@@ -1330,6 +1330,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 34.29 49.53)
+		(end 41.91 64.77)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4ac1e85-146b-455d-a388-de715bce0062)
+	)
+	(text_box "Connect jumper here to enable MCU VDD. REGN is 5V from SolarCharge."
+		(exclude_from_sim no)
+		(at 21.59 30.48 0)
+		(size 21.59 11.43)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "386c2bc3-7129-4ff3-a33e-75d788a9017c")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 92.71 13.97 0)
@@ -1353,58 +1389,10 @@
 		)
 		(uuid "524c500e-48b2-4d74-9c30-5c34bf6c2558")
 	)
-	(text_box "DESIGN NOTE:\nblabla"
-		(exclude_from_sim no)
-		(at 50.8 114.3 0)
-		(size 21.59 15.24)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "7118d66d-27ed-4a42-9d0f-29873dd1133d")
-	)
-	(text_box "LAYOUT NOTE:\nblabla"
-		(exclude_from_sim no)
-		(at 77.47 113.03 0)
-		(size 26.67 15.24)
-		(margins 1.4525 1.4525 1.4525 1.4525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "789bb8df-08ec-4683-a441-f4ff02e08c1e")
-	)
 	(text_box "MCU Charger Control"
 		(exclude_from_sim no)
-		(at 114.3 96.52 0)
-		(size 167.64 9.525)
+		(at 124.46 95.885 0)
+		(size 154.94 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -1424,29 +1412,6 @@
 			(justify bottom)
 		)
 		(uuid "96ca24d3-fb87-492b-b46b-2ff8e6f8597a")
-	)
-	(text_box "DESIGN NOTE:\nblabla"
-		(exclude_from_sim no)
-		(at 24.13 113.03 0)
-		(size 21.59 15.24)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b30fc753-248d-41ea-b0ab-815ff2704544")
 	)
 	(text_box "3V3 LDO"
 		(exclude_from_sim no)
@@ -1471,6 +1436,29 @@
 			(justify bottom)
 		)
 		(uuid "d975f102-c262-465d-91fc-7f6c552cfb8d")
+	)
+	(text_box "Proramming pins."
+		(exclude_from_sim no)
+		(at 246.38 55.88 0)
+		(size 21.59 5.08)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "deadcdbe-36ed-4c12-aafe-cdba63dae451")
 	)
 	(junction
 		(at 78.74 59.69)
@@ -1600,6 +1588,17 @@
 			(type default)
 		)
 		(uuid "22d6b21f-5d96-4816-af21-8ce6ba1bcd22")
+	)
+	(polyline
+		(pts
+			(xy 34.29 41.91) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "27f7257b-654f-4329-be4b-0ecf9a0941a7")
 	)
 	(bus
 		(pts
@@ -2060,7 +2059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28778c61-29fd-4a93-9602-b11ac932b15f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -2116,7 +2115,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2132,7 +2131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bef4539-c42d-47ac-bfff-0660abf3a03d")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 153.67 68.5799 0)
 			(effects
 				(font
@@ -2201,7 +2200,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48885fdf-f7bf-4d61-926c-76479b50df81")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 82.55 63.5 0)
 			(effects
 				(font
@@ -2267,7 +2266,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2434,7 +2433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d894a33-08d7-4726-9b39-439d780786ee")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -2491,7 +2490,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695c3f0f-7539-411a-90d9-9ab2b41a2888")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 153.67 52.07 0)
 			(effects
 				(font
@@ -2563,7 +2562,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2579,7 +2578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fd062d-8801-49ff-b9a0-3e8241fb2d57")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 143.51 66.04 0)
 			(effects
 				(font
@@ -2636,7 +2635,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85510553-f640-49a9-8720-f36a08352e46")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -2787,7 +2786,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4f3a2f-3458-43fa-97af-3a1d9e4f024f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -2853,7 +2852,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac1db02-2f98-448b-b8bd-41f7effc5244")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 143.51 68.5799 0)
 			(effects
 				(font
@@ -3093,7 +3092,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3583,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db313eb4-78fd-410f-9d84-08b0b3feb88f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 132.08 57.15 0)
 			(effects
 				(font
@@ -3639,7 +3638,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71e2ad0-1366-4ae4-9ffa-67ecf82c4c3b")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 82.55 62.2299 0)
 			(effects
 				(font
@@ -3718,7 +3717,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)

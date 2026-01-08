@@ -566,6 +566,31 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Placing input (solar) on one side and the rest on the opposite side of the PCB"
+		(exclude_from_sim no)
+		(at 106.68 45.72 0)
+		(size 26.67 12.7)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "3704afc5-482f-49c6-b49f-95329d0c3fbf")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 97.79 16.51 0)
@@ -871,7 +896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST_VH_B2P_3.96mm"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -905,7 +930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b207df-062f-4893-bbc3-f7623de67ce4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 60.96 95.25 0)
 			(effects
 				(font
@@ -956,7 +981,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -972,7 +997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a44d61-a14d-437b-b640-fa9cb9f67e9a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR044"
 			(at 69.85 78.74 0)
 			(effects
 				(font
@@ -1022,7 +1047,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c072b07-a560-4db6-80b9-4ac7749a39f6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR043"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -1156,7 +1181,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577"
-					(reference "#PWR030")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1208,7 +1233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST_VH_B2P_3.96mm"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -1242,7 +1267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf0596b-9493-4729-a304-4e4ef8afaf7e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -1251,7 +1276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+21V"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -1292,7 +1317,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1411,7 +1436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST_VH_B2P_3.96mm"
 			(at 74.93 52.07 0)
 			(effects
 				(font
