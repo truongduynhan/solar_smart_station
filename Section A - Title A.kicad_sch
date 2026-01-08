@@ -11,169 +11,6 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1774,19 +1611,6 @@
 	(bus_alias "I2C"
 		(members "SDA" "SCL" "INT_N")
 	)
-	(rectangle
-		(start 72.39 115.57)
-		(end 80.01 130.81)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1d95e40b-2bfb-46ac-aef7-d61406185c71)
-	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 115.57 15.24 0)
@@ -1809,29 +1633,6 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "Connect jumper here to enable charging (normal operation)."
-		(exclude_from_sim no)
-		(at 40.64 130.81 0)
-		(size 21.59 11.43)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "e0003229-9448-4893-9fb1-bea9e839bb75")
 	)
 	(junction
 		(at 245.11 92.71)
@@ -2486,16 +2287,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 124.46) (xy 81.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7875e00d-8403-4a82-b1b1-1543594bda94")
-	)
-	(wire
-		(pts
 			(xy 105.41 83.82) (xy 105.41 78.74)
 		)
 		(stroke
@@ -2724,17 +2515,6 @@
 		)
 		(uuid "ceeb56d1-8ee9-48e3-b731-89423b39e675")
 	)
-	(polyline
-		(pts
-			(xy 73.66 123.19) (xy 59.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(uuid "dbc0dbb3-ec35-483a-84d2-c330277e1998")
-	)
 	(wire
 		(pts
 			(xy 233.68 100.33) (xy 245.11 100.33)
@@ -2855,16 +2635,6 @@
 		)
 		(uuid "8103a2e9-eb4b-47d4-a92f-00b60113a58d")
 	)
-	(label "{I2C}"
-		(at 92.71 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7c409db-8350-45f0-98b4-cfe4072e5ef5")
-	)
 	(label "REGN"
 		(at 95.25 115.57 0)
 		(effects
@@ -2961,6 +2731,50 @@
 			)
 		)
 	)
+	(global_label "CE_N"
+		(shape input)
+		(at 81.28 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be1cf582-9f13-483c-bd91-3d4b4c5a1788")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5777 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{I2C}"
+		(shape input)
+		(at 92.71 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd406547-c18c-4501-bda1-5909e0d7da16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.9471 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BATTERY_PACK"
 		(shape input)
 		(at 261.62 113.03 0)
@@ -2993,7 +2807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a8e6c1-120f-44f9-ae33-ec82b77f420f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 245.11 106.68 0)
 			(effects
 				(font
@@ -3049,81 +2863,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 76.2 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0caa2c7b-1c61-44d9-858c-499bac00a1d9")
-		(property "Reference" "J1"
-			(at 76.835 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CE"
-			(at 76.835 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 76.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 76.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71a293dc-5b03-4436-a80a-46a05a7cd878")
-		)
-		(pin "1"
-			(uuid "b8eae305-2c46-4cf5-8148-dc35fcdfd4df")
-		)
-		(instances
-			(project ""
-				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "solar_smart_station"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "J1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3224,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26e69ba9-a64d-4c01-b0bc-3c8b2faa6c5c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 196.85 80.01 0)
 			(effects
 				(font
@@ -3280,7 +3020,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.7748 50.8 0)
 			(effects
 				(font
@@ -3862,16 +3602,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 54.61 180)
+		(at 245.11 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5174c5ed-68f2-405d-a506-976d23c20572")
 		(property "Reference" "C17"
-			(at 248.92 53.3399 0)
+			(at 241.3 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3620,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 248.92 55.8799 0)
+			(at 241.3 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3629,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 244.1448 50.8 0)
+			(at 246.0752 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533414c7-1f4f-4c87-86ad-7e8114854c0a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 245.11 64.77 0)
 			(effects
 				(font
@@ -4011,7 +3751,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4045,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.8548 92.71 0)
 			(effects
 				(font
@@ -4355,7 +4095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8280f560-adc2-4a54-8de5-6d62fdcd8cc6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 118.11 57.15 0)
 			(effects
 				(font
@@ -4412,7 +4152,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4498,78 +4238,6 @@
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84530a5c-f61a-41c7-b67c-a011686b4dd5")
-		(property "Reference" "#PWR04"
-			(at 82.55 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73247460-11ff-430d-bc7f-85ce82eae082")
-		)
-		(instances
-			(project "Section A - Title A"
-				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "solar_smart_station"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4755,7 +4423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b2a75c-08c7-4d92-a6f9-8af8e455cb39")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 91.44 64.77 0)
 			(effects
 				(font
@@ -4811,7 +4479,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d84d57-0660-4965-b30c-828ec8dfe45f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -4883,7 +4551,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5320,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -5562,7 +5230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.8548 50.8 0)
 			(effects
 				(font
@@ -5714,7 +5382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5afa50-44e5-4628-847d-64543a9a4f6f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -5770,7 +5438,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6206,7 +5874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae05596-b9e9-4500-befe-55cae7cbb62f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -6263,7 +5931,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6279,7 +5947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd1ea4b-4365-402b-bb56-71f63389886e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -6335,7 +6003,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ede98026-03db-47c4-84d7-77aa6b095de1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -6408,7 +6076,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6424,7 +6092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee5ec857-d9e1-4ccb-a602-32fb602c8ae6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -6480,7 +6148,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1757ee3-b4fe-4e68-862e-a03e80728278")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 191.77 114.3 0)
 			(effects
 				(font
@@ -6638,7 +6306,7 @@
 			)
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
