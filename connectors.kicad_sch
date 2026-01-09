@@ -2217,7 +2217,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6dff7f7a-c2fd-4d74-aee6-732eba87c170")
+			(uuid "6dff7f7a-c2fd-4d74-aee6-732eba87c171")
 		)
 		(instances
 			(project ""
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6dff7f7a-c2fd-4d74-aee6-732eba87c170")
+			(uuid "6dff7f7a-c2fd-4d74-aee6-732eba87c172")
 		)
 		(instances
 			(project ""
