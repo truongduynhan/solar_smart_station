@@ -74,18 +74,18 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">bc6fc39</textvar>
+    <textvar name="GIT_HASH_PCB">ec66a28</textvar>
     <textvar name="GIT_HASH_SCH">8e341b7</textvar>
     <textvar name="GIT_URL">https://github.com/truongduynhan/solar_smart_station.git</textvar>
     <textvar name="PROJECT_NAME">Balanced Solar Charger</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">09-Jan-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-01-09</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
@@ -1970,7 +1970,7 @@
       <tstamps>ea651b9a-9b65-4f1b-b1f5-0521af032667</tstamps>
     </comp>
     <comp ref="J1">
-      <value>CE_Jumper</value>
+      <value>Conn_01x02_Pin</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated</description>
@@ -1985,7 +1985,7 @@
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/ae8d0caf-6898-4dee-88e6-fcc8a5387577/"/>
-      <tstamps>0caa2c7b-1c61-44d9-858c-499bac00a1d9</tstamps>
+      <tstamps>ab0fb1db-94c1-4f1b-882f-3c8d9771fed3</tstamps>
     </comp>
     <comp ref="J2">
       <value>LDO_EN</value>

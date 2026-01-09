@@ -34,7 +34,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C33","0.1uF","C_0603_1608Metric",15.5000,-49.0000,0.0000,top
 "D1","LED","LED_0603_1608Metric",-28.5000,-56.0000,180.0000,top
 "D2","Schottky_30V_1A","DIO_RB02_ROM",7.5000,-51.0000,-90.0000,top
-"J1","CE","PinHeader_1x02_P2.54mm_Vertical",-19.7750,-75.0000,90.0000,top
+"J1","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",-19.7900,-75.0000,90.0000,top
 "J2","LDO_EN","PinHeader_1x02_P2.54mm_Vertical",-7.0000,-66.4750,0.0000,top
 "J3","Conn_01x05_Pin","PinHeader_1x05_P2.54mm_Vertical",11.0800,-75.0000,-90.0000,top
 "J4","JST_VH_B2P_3.96mm","JST_VH_B2P-VH_1x02_P3.96mm_Vertical",-31.2575,-73.9500,0.0000,top
