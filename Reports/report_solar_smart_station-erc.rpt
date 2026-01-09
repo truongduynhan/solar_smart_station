@@ -1,10 +1,11 @@
-ERC report (2026-01-09T03:16:11+0000, Encoding UTF8)
+ERC report (2026-01-09T03:41:40+0000, Encoding UTF8)
 
-***** Sheet /
+***** Sheet /Power - Sequencing/
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(0.8128 mm, 0.8255 mm): Vertical Wire, length 0.0889 mm
 
+***** Sheet /
 ***** Sheet /Block Diagram/
 ***** Sheet /Project Architecture/
 ***** Sheet /Project Architecture/SolarCharger/
@@ -97,5 +98,4 @@ ERC report (2026-01-09T03:16:11+0000, Encoding UTF8)
 ***** Sheet /Project Architecture/CellBalancer/
 ***** Sheet /Project Architecture/Connectors/
 ***** Sheet /Revision History/
-***** Sheet /Power - Sequencing/
  ** ERC messages: 18  Errors 0  Warnings 18
