@@ -1,4 +1,4 @@
 _local_|2026-01-09|root|Local changes not committed|False|True
+2b8a436|2026-01-09|Nhan Duy Truong|Change J1 value to fix BOM|True|False
 bc6fc39|2026-01-09|Nhan Duy Truong|All connectors are deemed the same in BOM. Re-push.|True|True
 fd089b8|2026-01-09|Nhan Duy Truong|Fix ERC|True|True
-efae09e|2026-01-09|Nhan Duy Truong|Finish layout|True|True

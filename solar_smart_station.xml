@@ -1970,7 +1970,7 @@
       <tstamps>ea651b9a-9b65-4f1b-b1f5-0521af032667</tstamps>
     </comp>
     <comp ref="J1">
-      <value>CE</value>
+      <value>CE_Jumper</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated</description>
