@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">4114864</textvar>
+    <textvar name="GIT_HASH_PCB">fd089b8</textvar>
     <textvar name="GIT_HASH_SCH">8e341b7</textvar>
     <textvar name="GIT_URL">https://github.com/truongduynhan/solar_smart_station.git</textvar>
     <textvar name="PROJECT_NAME">LiPo Battery Charger with CI/CD using KiBot</textvar>
@@ -131,7 +131,7 @@
     <textvar name="SHEET_NAME_7">Connectors</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">Power - Sequencing</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -2817,7 +2817,7 @@
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="U4" pin="19" pinfunction="VTB" pintype="output"/>
     </net>
-    <net code="49" name="REGN" class="Default">
+    <net code="49" name="REGN_5V" class="Default">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>

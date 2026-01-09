@@ -1,0 +1,13 @@
+** Drc report for solar_smart_station.kicad_pcb **
+** Created on 2026-01-09T01:53:03+0000 **
+
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'VSON-8_3.3x3.3mm_P0.65mm_NexFET' does not match copy in library 'Package_SON'.
+    ; warning (excluded)
+    @(66.5 mm, 157.0 mm): Footprint U5
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
