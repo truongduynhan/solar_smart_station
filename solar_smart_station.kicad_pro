@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|66547500|156867500|e937159c-7142-443b-8758-b81733283ce4|00000000-0000-0000-0000-000000000000",
-          "Shrinked pads width by 0.05mm to pass spacing requirement 0.16mm."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
