@@ -557,14 +557,14 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: KiBot Project
-  BOARD_NAME: Board Name
+  PROJECT_NAME: Balanced Solar Charger
+  BOARD_NAME: Balanced Solar Charger
 
-  COMPANY: Company Name
-  DESIGNER: Author
+  COMPANY: Electronic-Handyman
+  DESIGNER: Nhan Duy Truong
 
   LOGO: 'Logos/dummy_logo.png'
-  GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
+  GIT_URL: 'https://github.com/truongduynhan/solar_smart_station.git'
 
   # Preflight ==================================================================
 
@@ -573,7 +573,7 @@ definitions:
 
   # BoM ========================================================================
 
-  MPN_FIELD: 'Manufacturer Part Number'
+  MPN_FIELD: 'MPN'
   MAN_FIELD: 'Manufacturer'
 
   # Drill table and drill map parameters =======================================

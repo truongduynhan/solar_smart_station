@@ -1,0 +1,101 @@
+ERC report (2026-01-09T05:29:21+0000, Encoding UTF8)
+
+***** Sheet /Power - Sequencing/
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(0.8128 mm, 0.8255 mm): Vertical Wire, length 0.0889 mm
+
+***** Sheet /
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/SolarCharger/
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 0.6731 mm): Symbol U1 Pin 4 [BTST1, Unspecified, Line]
+    @(1.1811 mm, 0.6858 mm): Symbol C5 Pin 1 [Passive, Line]
+
+[multiple_net_names]: Both REGN_5V and REGN are attached to the same items; REGN_5V will be used in the netlist
+    ; warning
+    @(1.0033 mm, 0.8255 mm): Global Label 'REGN_5V'
+    @(1.1811 mm, 0.8255 mm): Label 'REGN'
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 0.7874 mm): Symbol U1 Pin 28 [SW1, Unspecified, Line]
+    @(1.1811 mm, 0.762 mm): Symbol C5 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 0.8255 mm): Symbol U1 Pin 5 [REGN, Unspecified, Line]
+    @(1.397 mm, 0.6604 mm): Symbol C21 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 0.9271 mm): Symbol U1 Pin 26 [SW2, Unspecified, Line]
+    @(1.1811 mm, 0.9525 mm): Symbol C7 Pin 1 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 1.0414 mm): Symbol U1 Pin 19 [BTST2, Unspecified, Line]
+    @(1.1811 mm, 1.0287 mm): Symbol C7 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 1.1557 mm): Symbol U1 Pin 1 [STAT, Unspecified, Line]
+    @(1.1938 mm, 1.1557 mm): Symbol D1 Pin 1 [K, Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 0.508 mm): Symbol U1 Pin 29 [PMID, Unspecified, Line]
+    @(1.4986 mm, 0.6604 mm): Symbol C22 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 0.5969 mm): Symbol U1 Pin 20 [PROG, Unspecified, Line]
+    @(1.7907 mm, 0.5969 mm): Symbol R5 Pin 1 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.2446 mm, 1.3716 mm): Symbol U1 Pin 12 [QON_N, Unspecified, Line]
+    @(1.1811 mm, 1.3716 mm): Symbol TP1 Pin 1 [1, Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 0.6604 mm): Symbol U1 Pin 17 [ILIM_HIZ, Unspecified, Line]
+    @(1.9685 mm, 0.6604 mm): Symbol R7 Pin 1 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 0.9271 mm): Symbol U1 Pin 25 [SYS, Unspecified, Line]
+    @(2.1082 mm, 0.9271 mm): Symbol C10 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(1.7526 mm, 1.0033 mm): Symbol U1 Pin 22 [BAT, Unspecified, Line]
+    @(1.7526 mm, 1.0414 mm): Symbol U1 Pin 23 [BAT, Unspecified, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 1.0414 mm): Symbol U1 Pin 23 [BAT, Unspecified, Line]
+    @(1.9177 mm, 1.2319 mm): Symbol R6 Pin 2 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 1.143 mm): Symbol U1 Pin 24 [SDRV, Unspecified, Line]
+    @(1.778 mm, 1.143 mm): Symbol C8 Pin 1 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 1.2319 mm): Symbol U1 Pin 18 [BATP, Unspecified, Line]
+    @(1.8415 mm, 1.2319 mm): Symbol R6 Pin 1 [Passive, Line]
+
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1.7526 mm, 1.3589 mm): Symbol U1 Pin 16 [TS, Unspecified, Line]
+    @(1.8161 mm, 1.3589 mm): Symbol R3 Pin 1 [Passive, Line]
+
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/CellBalancer/
+***** Sheet /Project Architecture/Connectors/
+***** Sheet /Revision History/
+ ** ERC messages: 18  Errors 0  Warnings 18

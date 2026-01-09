@@ -17,5 +17,5 @@ filters:
 definitions:
   COMMENT: Rename fields
   NAME: field_rename
-  MPN_FIELD: 'Manufacturer Part Number'
+  MPN_FIELD: 'MPN'
   MAN_FIELD: 'Manufacturer'

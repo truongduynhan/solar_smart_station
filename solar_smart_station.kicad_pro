@@ -69,16 +69,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +92,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -103,10 +108,13 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -116,9 +124,10 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.16,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 1.0,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -127,9 +136,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.16,
+        "min_via_annular_width": 0.12,
         "min_via_diameter": 0.55,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -138,16 +147,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -158,7 +168,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -169,7 +179,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -181,13 +191,16 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
+        0.16,
         0.2,
         0.25,
         0.3,
         0.35,
         0.4,
-        0.5
+        0.5,
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -488,7 +501,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -499,16 +512,15 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -524,9 +536,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -542,9 +553,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -560,9 +570,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -578,9 +587,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -596,9 +604,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -614,9 +621,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -632,9 +638,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -650,9 +655,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -668,9 +672,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -899,7 +902,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -935,15 +938,27 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Config",
           "name": "Config",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
@@ -996,6 +1011,10 @@
   },
   "sheets": [
     [
+      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
+      "Power - Sequencing"
+    ],
+    [
       "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c",
       "Root"
     ],
@@ -1009,15 +1028,19 @@
     ],
     [
       "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "Section A - Title A"
+      "SolarCharger"
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "Section B - Title B"
+      "MCU"
     ],
     [
-      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
-      "Power - Sequencing"
+      "54082ac5-4f5c-4b8c-9076-544a3a334a45",
+      "CellBalancer"
+    ],
+    [
+      "ae8d0caf-6898-4dee-88e6-fcc8a5387577",
+      "Connectors"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1025,28 +1048,28 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company",
-    "DESIGNER": "Author",
-    "FABRICATION_NOTES": "FABRICATION NOTES",
-    "GIT_HASH_PCB": "",
-    "GIT_HASH_SCH": "",
-    "GIT_URL": "",
-    "PROJECT_NAME": "Project Name",
-    "RELEASE_BODY_1.0.0": "",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
+    "BOARD_NAME": "Balanced Solar Charger",
+    "COMPANY": "Electronic-Handyman",
+    "DESIGNER": "Nhan Duy Truong",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY ELECTRONIC-HANDYMAN.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t57.750 \u00d7 39.500 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.160 mm\n\tTRACE TO TRACE\t\t0.150 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\tN/A mm\n\tANNULAR RING\t\t\t0.125 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t1.000 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "GIT_HASH_PCB": "f545d96",
+    "GIT_HASH_SCH": "9ebb199",
+    "GIT_URL": "https://github.com/truongduynhan/solar_smart_station.git",
+    "PROJECT_NAME": "Balanced Solar Charger",
+    "RELEASE_BODY_1.0.0": "Version 1.0.0 not found.",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
-    "RELEASE_BODY_UNRELEASED": "",
-    "RELEASE_DATE": "DD-MMM-YYYY",
-    "RELEASE_DATE_NUM": "YYYY-MM-DD",
-    "RELEASE_TITLE_1.0.0": "",
+    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_DATE": "09-Jan-2026",
+    "RELEASE_DATE_NUM": "2026-01-09",
+    "RELEASE_TITLE_1.0.0": "Version 1.0.0 not found.",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "",
-    "REVISION": "",
+    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1058,7 +1081,7 @@
     "SHEET_NAME_17": "......................................",
     "SHEET_NAME_18": "......................................",
     "SHEET_NAME_19": "......................................",
-    "SHEET_NAME_2": "Block Diagram",
+    "SHEET_NAME_2": "",
     "SHEET_NAME_20": "......................................",
     "SHEET_NAME_21": "......................................",
     "SHEET_NAME_22": "......................................",
@@ -1069,7 +1092,7 @@
     "SHEET_NAME_27": "......................................",
     "SHEET_NAME_28": "......................................",
     "SHEET_NAME_29": "......................................",
-    "SHEET_NAME_3": "Project Architecture",
+    "SHEET_NAME_3": "Block Diagram",
     "SHEET_NAME_30": "......................................",
     "SHEET_NAME_31": "......................................",
     "SHEET_NAME_32": "......................................",
@@ -1080,13 +1103,13 @@
     "SHEET_NAME_37": "......................................",
     "SHEET_NAME_38": "......................................",
     "SHEET_NAME_39": "......................................",
-    "SHEET_NAME_4": "Section A - Title A",
+    "SHEET_NAME_4": "Project Architecture",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "Section B -Title B",
-    "SHEET_NAME_6": "Power - Sequencing",
-    "SHEET_NAME_7": "Revision History",
-    "SHEET_NAME_8": "......................................",
-    "SHEET_NAME_9": "......................................",
-    "VARIANT": ""
+    "SHEET_NAME_5": "SolarCharger",
+    "SHEET_NAME_6": "MCU",
+    "SHEET_NAME_7": "CellBalancer",
+    "SHEET_NAME_8": "Connectors",
+    "SHEET_NAME_9": "Revision History",
+    "VARIANT": "CHECKED"
   }
 }
