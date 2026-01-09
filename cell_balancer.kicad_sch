@@ -1224,6 +1224,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "solar_station:BQ7791500PWR"
 			(pin_names
 				(offset 0.254)
@@ -2017,6 +2118,12 @@
 		(uuid "20bd9427-64b9-4ae9-b1fd-1889f508d5b3")
 	)
 	(junction
+		(at 81.28 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395c14aa-52ce-4509-8055-1461aabb16cf")
+	)
+	(junction
 		(at 101.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2119,6 +2226,12 @@
 		(uuid "98b229bb-913e-4d68-98cc-049edc6fe736")
 	)
 	(junction
+		(at 129.54 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0037f6-07f4-4e52-b67d-7b4c0cd7d0f1")
+	)
+	(junction
 		(at 175.26 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2147,6 +2260,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d699171f-dcae-471b-b7a6-ebe18382570c")
+	)
+	(junction
+		(at 134.62 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e06fe9de-b11e-443f-9e37-1f0086846963")
 	)
 	(junction
 		(at 121.92 125.73)
@@ -2376,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 134.62 45.72)
+			(xy 128.27 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2666,6 +2785,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 82.55) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1c1a04-1d02-4f22-ba60-f17d8fe546b0")
+	)
+	(wire
+		(pts
 			(xy 101.6 67.31) (xy 101.6 71.12)
 		)
 		(stroke
@@ -2806,6 +2935,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e47c07-bc18-43a1-8da5-d046fb9de0cf")
+	)
+	(wire
+		(pts
 			(xy 129.54 68.58) (xy 129.54 73.66)
 		)
 		(stroke
@@ -2843,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "a8fa840f-5bdb-4649-96df-bca3c106f629")
+	)
+	(wire
+		(pts
+			(xy 129.54 44.45) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a996b908-bd9a-48e8-b1c2-05b062b5603a")
 	)
 	(wire
 		(pts
@@ -3016,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 125.73) (xy 66.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9e6efd-2d13-4f2d-9b1c-71cc51714a72")
+	)
+	(wire
+		(pts
 			(xy 187.96 60.96) (xy 190.5 60.96)
 		)
 		(stroke
@@ -3136,6 +3295,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 82.55) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f3fe8c-16ac-4341-985b-5ca9d79e5577")
+	)
+	(wire
+		(pts
+			(xy 134.62 36.83) (xy 134.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3061310-41d5-48db-9c46-a427c6e3f6e7")
+	)
+	(wire
+		(pts
 			(xy 134.62 60.96) (xy 116.84 60.96)
 		)
 		(stroke
@@ -3176,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 86.36 82.55)
+			(xy 66.04 82.55) (xy 81.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5603,6 +5782,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd9012a-4d61-4306-8cfd-3052c41e7650")
+		(property "Reference" "#FLG06"
+			(at 57.15 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7815f9e8-1d89-4d75-a579-b7b298b7db18")
+		)
+		(instances
+			(project "solar_smart_station"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 125.73 90)
 		(unit 1)
@@ -6191,6 +6436,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aef435ab-e12c-4eaf-a74d-64172f6b456a")
+		(property "Reference" "#FLG05"
+			(at 129.54 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad6d006-5bfa-4f39-b674-30ce75382204")
+		)
+		(instances
+			(project "solar_smart_station"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "solar_station:Schottky_30V_1A")
 		(at 156.21 92.71 90)
 		(unit 1)
@@ -6640,6 +6951,72 @@
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94cf219-9d27-41db-8c94-537e84f31dc0")
+		(property "Reference" "#FLG04"
+			(at 134.62 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "742c238c-96f4-448b-8b3f-33494aaa55ac")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
