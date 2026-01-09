@@ -5791,7 +5791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd9012a-4d61-4306-8cfd-3052c41e7650")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG01"
 			(at 57.15 123.825 0)
 			(effects
 				(font
@@ -5841,7 +5841,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
-					(reference "#FLG06")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6445,7 +6445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef435ab-e12c-4eaf-a74d-64172f6b456a")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 129.54 42.545 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 		(instances
 			(project "solar_smart_station"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6966,7 +6966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94cf219-9d27-41db-8c94-537e84f31dc0")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 134.62 34.925 0)
 			(effects
 				(font
@@ -7016,7 +7016,7 @@
 		(instances
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/54082ac5-4f5c-4b8c-9076-544a3a334a45"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

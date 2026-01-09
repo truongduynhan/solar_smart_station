@@ -10378,7 +10378,7 @@
 		(at 58.225 181 90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 2.5 1.525 180)
 			(layer "F.SilkS")
 			(uuid "8cf4a925-a3bf-4fa4-b038-8bf0259f30b4")
@@ -15844,7 +15844,7 @@
 		(at 51.225 181 90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 2.25 0.275 0)
 			(layer "F.SilkS")
 			(uuid "5f02e1a5-c961-4f77-ac39-2373d85d0353")
@@ -19121,7 +19121,7 @@
 		(at 61.2575 151.3 180)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J5"
+		(property "Reference" "JST2"
 			(at 7.5075 3.3 0)
 			(layer "F.SilkS")
 			(uuid "0131a909-c957-4a7f-a54a-51fb5921ef8b")
@@ -19478,7 +19478,7 @@
 		(at 32.7425 179.95)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J4"
+		(property "Reference" "JST1"
 			(at 1.98 -4.9 0)
 			(layer "F.SilkS")
 			(uuid "5bbcddc7-c3b1-4a5e-b5e2-f3854f0c0e95")

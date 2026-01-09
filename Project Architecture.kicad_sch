@@ -115,6 +115,34 @@
 		)
 		(uuid fda911f3-adb3-4abb-981f-a877a93c831b)
 	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 205.994 67.818 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#6")
+		)
+		(uuid "357f605b-2fb8-4b33-bd88-fdd50b575ad3")
+	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 207.772 108.458 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "a9776e50-c817-470d-9d05-1204c714010f")
+	)
 	(text "Page 5"
 		(exclude_from_sim no)
 		(at 128.27 107.95 0)
@@ -253,7 +281,7 @@
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(sheet
-		(at 152.4 50.8)
+		(at 177.8 50.8)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -269,7 +297,7 @@
 		)
 		(uuid "54082ac5-4f5c-4b8c-9076-544a3a334a45")
 		(property "Sheetname" "CellBalancer"
-			(at 152.4 50.0884 0)
+			(at 177.8 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +306,7 @@
 			)
 		)
 		(property "Sheetfile" "cell_balancer.kicad_sch"
-			(at 152.4 70.4346 0)
+			(at 177.8 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,7 +323,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 121.92)
+		(at 172.72 90.17)
 		(size 39.37 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -307,11 +335,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 138 255 32 1.0000)
 		)
 		(uuid "ae8d0caf-6898-4dee-88e6-fcc8a5387577")
 		(property "Sheetname" "Connectors"
-			(at 92.71 121.2084 0)
+			(at 172.72 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +348,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 92.71 144.0946 0)
+			(at 172.72 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
