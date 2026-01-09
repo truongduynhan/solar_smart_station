@@ -557,7 +557,7 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: LiPo Battery Charger with CI/CD using KiBot
+  PROJECT_NAME: Balanced Solar Charger
   BOARD_NAME: Balanced Solar Charger
 
   COMPANY: Electronic-Handyman

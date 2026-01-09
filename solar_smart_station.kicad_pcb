@@ -22978,7 +22978,7 @@
 		)
 	)
 	(gr_text "Ther1"
-		(at 49.5 184.75 0)
+		(at 49.25 184.75 0)
 		(layer "F.SilkS")
 		(uuid "1a170c36-c2a0-4b82-af8a-7431acee346a")
 		(effects
@@ -23008,6 +23008,18 @@
 		(effects
 			(font
 				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LDO EN"
+		(at 60.75 177.25 90)
+		(layer "F.SilkS")
+		(uuid "99e9224f-b162-4c36-a910-54aaa0199d69")
+		(effects
+			(font
+				(size 1.6 1.6)
 				(thickness 0.15)
 			)
 			(justify left bottom)

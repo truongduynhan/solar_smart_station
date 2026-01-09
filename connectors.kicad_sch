@@ -1883,6 +1883,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TBD"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef0adf42-3446-4561-b8e0-2065198e6e33")
 		)
@@ -2949,6 +2958,15 @@
 			)
 		)
 		(property "Description" "JST_VH_B2P_3.96mm"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBD"
 			(at 185.42 45.72 0)
 			(effects
 				(font
