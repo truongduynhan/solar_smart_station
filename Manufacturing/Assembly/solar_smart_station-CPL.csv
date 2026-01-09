@@ -37,10 +37,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J1","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",-19.7900,-75.0000,90.0000,top
 "J2","LDO_EN","PinHeader_1x02_P2.54mm_Vertical",-7.0000,-66.4750,0.0000,top
 "J3","Conn_01x05_Pin","PinHeader_1x05_P2.54mm_Vertical",11.0800,-75.0000,-90.0000,top
-"J4","JST_VH_B2P_3.96mm","JST_VH_B2P-VH_1x02_P3.96mm_Vertical",-31.2575,-73.9500,0.0000,top
-"J5","JST_VH_B2P_3.96mm","JST_VH_B2P-VH_1x02_P3.96mm_Vertical",-2.7425,-45.3000,180.0000,top
-"J7","Thermistor_1","PinHeader_1x02_P2.54mm_Vertical",-12.7750,-75.0000,90.0000,top
-"J8","Thermistor_2","PinHeader_1x02_P2.54mm_Vertical",-5.7750,-75.0000,90.0000,top
+"J4","Thermistor_1","PinHeader_1x02_P2.54mm_Vertical",-12.7750,-75.0000,90.0000,top
+"J5","Thermistor_2","PinHeader_1x02_P2.54mm_Vertical",-5.7750,-75.0000,90.0000,top
+"JST1","JST_VH_B2P_3.96mm","JST_VH_B2P-VH_1x02_P3.96mm_Vertical",-31.2575,-73.9500,0.0000,top
+"JST2","JST_VH_B2P_3.96mm","JST_VH_B2P-VH_1x02_P3.96mm_Vertical",-2.7425,-45.3000,180.0000,top
 "L1","1uH","L_Bourns_SRP7028A_7.3x6.6mm",-15.5000,-46.0000,0.0000,top
 "Q1","AO3400A","SOT-23",8.3600,-46.0000,180.0000,top
 "Q2","AO3400A","SOT-23",4.3600,-46.0000,0.0000,top
