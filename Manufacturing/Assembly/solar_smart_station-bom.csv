@@ -8,7 +8,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 7,10,C3 C4 C11 C12 C13 C14 C15 C16 C17 C18,10uF,~,C_1206_3216Metric,Unpolarized capacitor,,TBD,
 8,1,D1,LED,~,LED_0603_1608Metric,Light emitting diode,,,
 9,1,D2,Schottky_30V_1A,,DIO_RB02_ROM,DIODE SCHOTTKY 30V 1A TUMD2M,,RSX101VYM30FHTR,
-10,7,J1 J2 J3 J4 J5 JST1 JST2,Conn_01x02_Pin,~,PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated Generic connector, single row, 01x05, script generated JST_VH_B2P_3.96mm",,TBD,
+10,7,J1 J2 J3 J4 J5 JST1 JST2,Conn_01x02_Pin,~,PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated Generic connector, single row, 01x05, script generated",,,
 11,1,L1,1uH,~,L_Bourns_SRP7028A_7.3x6.6mm,Inductor,,SPM6530T-1R0M120,
 12,2,Q1 Q2,AO3400A,http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf,SOT-23,"30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23",,,
 13,1,R21,10mR,~,R_0805_2012Metric,Resistor,,TBD,
