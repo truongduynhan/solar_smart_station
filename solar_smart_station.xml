@@ -74,10 +74,10 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">fd089b8</textvar>
+    <textvar name="GIT_HASH_PCB">bc6fc39</textvar>
     <textvar name="GIT_HASH_SCH">8e341b7</textvar>
     <textvar name="GIT_URL">https://github.com/truongduynhan/solar_smart_station.git</textvar>
-    <textvar name="PROJECT_NAME">LiPo Battery Charger with CI/CD using KiBot</textvar>
+    <textvar name="PROJECT_NAME">Balanced Solar Charger</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
@@ -2029,11 +2029,13 @@
       <datasheet>~</datasheet>
       <description>JST_VH_B2P_3.96mm</description>
       <fields>
+        <field name="MPN">TBD</field>
         <field name="Footprint">Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">JST_VH_B2P_3.96mm</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="TBD"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -2047,11 +2049,13 @@
       <datasheet>~</datasheet>
       <description>JST_VH_B2P_3.96mm</description>
       <fields>
+        <field name="MPN">TBD</field>
         <field name="Footprint">Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">JST_VH_B2P_3.96mm</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MPN" value="TBD"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
