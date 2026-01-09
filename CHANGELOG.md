@@ -8,12 +8,4 @@
 
 ### Added
 
--   Additions
-
-### Changed
-
--   Changes
-
-### Removed
-
--   Deletions
+-   First version of PCB
