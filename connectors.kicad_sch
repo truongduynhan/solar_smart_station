@@ -1778,7 +1778,7 @@
 				)
 			)
 		)
-		(property "Value" "CE"
+		(property "Value" "CE_Jumper"
 			(at 76.835 45.72 0)
 			(effects
 				(font
