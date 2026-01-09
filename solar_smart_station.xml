@@ -74,23 +74,33 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">f545d96</textvar>
-    <textvar name="GIT_HASH_SCH">9ebb199</textvar>
+    <textvar name="GIT_HASH_PCB">7f04126</textvar>
+    <textvar name="GIT_HASH_SCH">7f04126</textvar>
     <textvar name="GIT_URL">https://github.com/truongduynhan/solar_smart_station.git</textvar>
     <textvar name="PROJECT_NAME">Balanced Solar Charger</textvar>
-    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Fixed
+
+-   Fixes
+
+___________________________________
+
+Added
+
+-   First version of PCB</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">09-Jan-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-01-09</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-09</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="REVISION">1.0.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -131,12 +141,12 @@
     <textvar name="SHEET_NAME_7">CellBalancer</textvar>
     <textvar name="SHEET_NAME_8">Connectors</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
         <title>Power - Sequencing</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -154,7 +164,7 @@
       <title_block>
         <title/>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>solar_smart_station.kicad_sch</source>
         <comment number="1" value=""/>
@@ -172,7 +182,7 @@
       <title_block>
         <title>Block Diagram</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -190,7 +200,7 @@
       <title_block>
         <title>Project Architecture</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -208,7 +218,7 @@
       <title_block>
         <title>Solar Charger</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Section A - Title A.kicad_sch</source>
         <comment number="1" value=""/>
@@ -226,7 +236,7 @@
       <title_block>
         <title>MCU</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Section B - TItle B.kicad_sch</source>
         <comment number="1" value=""/>
@@ -244,7 +254,7 @@
       <title_block>
         <title/>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>cell_balancer.kicad_sch</source>
         <comment number="1" value=""/>
@@ -262,7 +272,7 @@
       <title_block>
         <title>Connectors</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>connectors.kicad_sch</source>
         <comment number="1" value=""/>
@@ -280,7 +290,7 @@
       <title_block>
         <title>Revision History</title>
         <company>Electronic-Handyman</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
