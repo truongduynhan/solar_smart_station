@@ -1,0 +1,9 @@
+solar_smart_station|solar_smart_station.kicad_sch||solar_smart_station|solar_smart_station
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|solar_smart_station-Block Diagram
+Power - Sequencing|Power - Sequencing.kicad_sch||Power - Sequencing|solar_smart_station-Power - Sequencing
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|solar_smart_station-Project Architecture
+cell_balancer|cell_balancer.kicad_sch||CellBalancer|solar_smart_station-Project Architecture-CellBalancer
+connectors|connectors.kicad_sch||Connectors|solar_smart_station-Project Architecture-Connectors
+Section B - TItle B|Section B - TItle B.kicad_sch||MCU|solar_smart_station-Project Architecture-MCU
+Section A - Title A|Section A - Title A.kicad_sch||SolarCharger|solar_smart_station-Project Architecture-SolarCharger
+Revision History|Revision History.kicad_sch||Revision History|solar_smart_station-Revision History
